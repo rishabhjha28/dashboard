@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="60" viewBox="0 0 68 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1079" data-name="Rectangle 1079" width="68" height="60" transform="translate(7727.569 1858.569)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="ic_login_failed_user" transform="translate(-7727.569 -1858.569)" clip-path="url(#clip-path)">
+    <path id="Path_2606" data-name="Path 2606" d="M2,53.833a20.127,20.127,0,0,1,40.254,0H37.222a15.1,15.1,0,0,0-30.19,0ZM22.127,31.19a15.1,15.1,0,1,1,15.1-15.1A15.091,15.091,0,0,1,22.127,31.19Zm0-5.032A10.063,10.063,0,1,0,12.063,16.1,10.061,10.061,0,0,0,22.127,26.159Z" transform="translate(7735.442 1861.153)" fill="#fff"/>
+    <g id="Group_2755" data-name="Group 2755" transform="translate(7864.541 1092.752) rotate(45)">
+      <path id="Path_2608" data-name="Path 2608" d="M1942.614,611.342v15" transform="translate(-1436)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+      <path id="Path_2609" data-name="Path 2609" d="M1942.614,611.342v15" transform="translate(1125.456 -1323.772) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

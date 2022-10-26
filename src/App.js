@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import { Dashboard } from './Dashboard';
+import { Homepage } from './Homepage';
 
 function App() {
+  const [formData,setFormData] = useState({
+    name:"",
+    noOfUser:"",
+    noOfFailedLogin:'',
+    noOfGroups:'',
+    noOfActiveUser:'',
+    place1:'',
+    place2:''
+  })
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path = '/' element = {<Homepage formData = {formData} setFormData = {setFormData}/>}/>
+        <Route path = 'dashboard' element = {<Dashboard formData = {formData} setFormData = {setFormData}/>}/>
+      </Routes>
     </div>
   );
 }
